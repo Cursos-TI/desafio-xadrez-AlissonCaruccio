@@ -8,7 +8,7 @@ int main() {
     int CavaloDireita = 1; // número de casas para esquerda (movimento do cavalo)
 
    
-    // Movimentação da TORRE (for)
+    // Movimentação da torre (for)
    
     printf("Movimento da Torre:\n");
     for (int i = 1; i <= Torre; i++) {
@@ -16,7 +16,7 @@ int main() {
     }
     printf("\n");
 
-    // Movimentação do BISPO (while)
+    // Movimentação do bispo (while)
   
     printf("Movimento do Bispo:\n");
     int i = 1;
@@ -28,7 +28,7 @@ int main() {
     printf("\n");
 
     
-    // Movimentação da RAINHA (do-while)
+    // Movimentação da rainha (do-while)
    
     printf("Movimento da Rainha:\n");
     int j = 1;
@@ -43,7 +43,7 @@ int main() {
    
     printf("Movimento do Cavalo:\n");
 
-    int movimentoCompleto = 1; // flag para controlar o movimento em "L"
+    int movimentoCompleto = 1; // flag para controlar o movimento em L
 
     // Loop externo
     while (movimentoCompleto--) 
@@ -53,7 +53,7 @@ int main() {
             printf("Cima\n");
         }
 
-        //  uma casa para a esquerda
+        //  uma casa para a direita
         for (int m = 0; m < CavaloDireita; m++) {
             printf("Direita\n");
         }
@@ -61,3 +61,4 @@ int main() {
 
     return 0;
 }
+
